@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "watch":"node-sass -w src/resources/scss/app.scss -o src/public/css/app.css",
+    "watch": "node-sass -w src/resources/scss/app.scss -o src/public/css/app.css",
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/nhan2804/nodejs#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.0",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4"
   },

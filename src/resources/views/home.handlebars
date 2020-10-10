@@ -1,1 +1,9 @@
-<h5>Hello home</h5>
+<h1>Tất cả bài viết</h1>
+<div class="row">
+    {{#each v}}
+        <div class="col-lg-6">{{this.name}}
+             <a class="btn btn-success" href="/news/{{this.slug}}"></a>
+        </div>
+       
+    {{/each}}
+</div>
